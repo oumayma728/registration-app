@@ -31,10 +31,10 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
   @test
-  public void greetShouldReturnExactMessage
+  public void greetShouldReturnExactMessage(){
   String someone = "Alice";
   String expected = "Hello , Alice!";
       // Check if the result from greet() is exactly "Hello, Alice!"
       assertThat(greeter.greet(someone), is(expected));
-
+  }
 }
