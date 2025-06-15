@@ -33,7 +33,7 @@ public class TestGreeter {
   @Test
   public void greetShouldReturnExactMessage(){
   String someone = "Alice";
-  String expected = "Hello , Alice!";
+  String expected = "Hello, Alice!";
       // Check if the result from greet() is exactly "Hello, Alice!"
       assertThat(greeter.greet(someone), is(expected));
   }
